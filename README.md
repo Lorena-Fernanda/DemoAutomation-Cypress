@@ -6,7 +6,7 @@
     * Vs Code
          No Vs Code, abra o terminal em seguida para rodar os testes utilizar o comando: " npm run cy:open> ", na raiz do projeto.
 
-    *Todos os arquivos de testes estão na pasta Client/src/Cypress/integration
+    * Todos os arquivos de testes estão na pasta Cypress/Integration
 
 1. Instalar as dependências do node na raiz principal do projeto, com os dois comandos:
     ~~~~
