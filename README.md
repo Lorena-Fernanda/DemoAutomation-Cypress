@@ -2,7 +2,7 @@
 # Configurações necessárias
 
 * Requisitos
-    * node v14.19.1
+    * node v14.19.1 (Só funciona com essa versão)
     * Vs Code
          No Vs Code, abra o terminal em seguida para rodar os testes utilizar o comando: " npm run cy:open> ", na raiz do projeto.
 
