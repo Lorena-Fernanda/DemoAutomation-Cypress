@@ -1,34 +1,37 @@
-# Test Automation project
 
+# Configurações necessárias
 
-# Start dev environment
-
-* Requirements
+* Requisitos
     * node v14.19.1
+    * Vs Code
+         No Vs Code, abra o terminal em seguida para rodar os testes utilizar o comando: " npm run cy:open> ", na raiz do projeto.
 
-1. Install dependencies. On project root folder run both commands in sequence:
+    *Todos os arquivos de testes estão na pasta Client/src/Cypress/integration
+
+1. Instalar as dependências do node na raiz principal do projeto, com os dois comandos:
     ~~~~
     npm install
     npm run install-all
     ~~~~
 
-2. Start from project root folder:
+2. Dar Start na raiz do projeto:
     ~~~~
     npm start
     ~~~~
 
-3. Or if you want to start separately.  
-   First start Server:
+3. Ou pode executar separadmente
+   Primeiro iniciar o Servidor:
     ~~~~
     cd server
     node server.js
     ~~~~
 
-4. And then start Client:
+4. Posteriormente iniciar o Cliente:
     ~~~~
     cd client
     npm start
     ~~~~
 
-* Open the application
+* Abrir a url da aplicação:
     * http://localhost:3000/
+    
